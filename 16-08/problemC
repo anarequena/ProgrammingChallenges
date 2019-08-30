@@ -1,0 +1,22 @@
+Problem Statement:
+
+In mathematics the Fibonacci series or Fibonacci sequence are the numbers in the following integer sequence.
+
+0,1,1,2,3,5,8,13,21.... By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two.
+
+In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation.
+
+Fn = Fn-1 + Fn-2
+
+Your task is to divide given Fibonacci number n by three different Fibonacci numbers (a, b, c) (without zero) or say that it is impossible.
+
+Input:
+
+Input starts with an integer T ( T <= 1000), denoting the number of test cases. Each case starts with an integer n ( 0 <= n  < 1012) . It is guaranteed that n is a Fibonacci number.
+
+Output:
+
+Print  three required numbers: a, b and c (a < b < c) (without zero). a, b, c must be Fibonacci number and the total sum of a, b, c equal to n. If there is no answer for the test you have to print " impossible " (without the quotes).
+
+Possible resolution:
+https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
